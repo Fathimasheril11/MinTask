@@ -1,0 +1,5 @@
+img {
+    border-radius: 15px; 
+    border: 2px dashed black; 
+    filter: grayscale(100%);  
+}

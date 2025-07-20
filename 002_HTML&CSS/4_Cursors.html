@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursors</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        .cursor-example {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #333;
+            width: 200px;
+            text-align: center;
+            border-radius: 8px;
+            transition: background 0.3s;
+        }
+
+        .default { cursor: default; }
+        .pointer { cursor: pointer; }
+        .crosshair { cursor: crosshair; }
+        .move { cursor: move; }
+        .text { cursor: text; }
+        .wait { cursor: wait; }
+        .help { cursor: help; }
+        .not-allowed { cursor: not-allowed; }
+        .zoom-in { cursor: zoom-in; }
+        .grab { cursor: grab; }
+
+        .cursor-example:hover {
+            background: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Cursor Types</h1>
+
+    <div class="cursor-example default">Default Cursor</div>
+    <div class="cursor-example pointer">Pointer Cursor (like links)</div>
+    <div class="cursor-example crosshair">Crosshair Cursor</div>
+    <div class="cursor-example move">Move Cursor</div>
+    <div class="cursor-example text">Text Cursor (I-beam)</div>
+    <div class="cursor-example wait">Wait Cursor (loading)</div>
+    <div class="cursor-example help">Help Cursor (question mark)</div>
+    <div class="cursor-example not-allowed">Not-Allowed Cursor</div>
+    <div class="cursor-example zoom-in">Zoom-in Cursor</div>
+    <div class="cursor-example grab">Grab Cursor</div>
+    
+</body>
+</html>

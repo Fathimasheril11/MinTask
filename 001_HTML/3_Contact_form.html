@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact form</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background: #f9f9f9;
+            align-items: center;
+            height: 100vh;
+        }
+        .contact-form {
+            background: #fff;
+            padding: 20px 40px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            width: 400px;
+        }
+        .contact-form h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .contact-form label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+       
+    </style>
+</head>
+<body>
+    <form class="contact-form" action="#" method="post">
+        <h2>Contact Us</h2>
+
+        <label for="name">Full name:</label>
+        <input id="name" name="name" type="text" value="Enter your name here" required> <br><br>
+
+        <label for="email">Email ID:</label>
+        <input id="email" name="email" type="email" required> <br><br>
+
+        <label for="mobile">Mobile No.:</label>
+        <input id="mobile" name="mobile" type="tel" pattern="[0-9]{10}" required> <br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+    
+</body>
+</html>

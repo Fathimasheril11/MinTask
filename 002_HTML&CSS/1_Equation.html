@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equation</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: #f0f0f0;
+        }
+        .equation {
+            font-family: "Times New Roman", serif;
+            font-size: 48px;
+        }
+        .fraction {
+            display: inline-block;
+            text-align: center;
+        }
+        .fraction .top {
+            display: block;
+        }
+        .fraction .bottom {
+            display: block;
+            border-top: 1px solid #000;
+        }
+        .sup {
+            font-size: 60%;
+            vertical-align: super;
+        }
+    </style>
+</head>
+<body>
+    <div class="equation">
+        <span class="fraction">
+            <span class="top">∂<span class="sup">2</span>u</span>
+            <span class="bottom">∂t<span class="sup">2</span></span>
+        </span>
+        =
+        c<span class="sup">2</span>
+        <span class="fraction">
+            <span class="top">∂<span class="sup">2</span>u</span>
+            <span class="bottom">∂x<span class="sup">2</span></span>
+        </span>
+    </div>
+    
+</body>
+</html>

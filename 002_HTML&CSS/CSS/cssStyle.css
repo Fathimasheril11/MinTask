@@ -1,0 +1,14 @@
+body {
+    font-family: "Georgia", serif;
+    background-color: #f2f5f8;
+    color: #333;
+    padding: 50px;
+}
+
+.drop-cap::first-letter {
+    float: left;
+    font-size: 4em;
+    line-height: 1;
+    padding-right: 8px;
+    font-weight: bold;
+}
